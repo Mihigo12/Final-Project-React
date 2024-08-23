@@ -4,7 +4,7 @@ import Button, { SelectButton } from './Button';
 import TodoModal from './TodoModal';
 
 export default function AppHeader() {
-  const [modalOpen, setModalOpen] = useState(true);
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <div className={styles.appHeader}>
       <Button variant="primary" onClick={() => setModalOpen(true)}>
