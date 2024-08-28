@@ -11,7 +11,7 @@ export default function App() {
       <div className="container">
         <PageTitle>TODO LIST</PageTitle>
       </div>
-      <div className={styles.app_wrapper}>
+      <div className={styles.app__wrapper}>
         <AppHeader />
         <AppContent />
       </div>
